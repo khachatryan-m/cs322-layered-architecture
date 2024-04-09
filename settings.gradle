@@ -12,4 +12,8 @@ include 'business:business-api'
 include 'business:business-impl'
 include 'business:business-test'
 include 'data:data-api'
+include 'webapp1'
+include 'webapp1:main'
+include 'webapp1:webapp2'
+findProject(':webapp1:webapp2')?.name = 'webapp2'
 
