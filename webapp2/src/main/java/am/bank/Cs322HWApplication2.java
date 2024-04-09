@@ -1,13 +1,15 @@
 package am.bank;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import static org.springframework.boot.SpringApplication.*;
-
 @SpringBootApplication(scanBasePackages = {"am.bank"})
-public class Cs322HomeworkApplication2 {
+public class Cs322HWApplication2 {
 
     public static void main(String[] args) {
-        run(Cs322HomeworkApplication2.class, args);
+        SpringApplication.run(Cs322HWApplication2.class, args);
     }
 }
+
+
+

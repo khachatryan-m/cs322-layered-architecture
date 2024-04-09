@@ -10,3 +10,4 @@ public class Cs322HomeworkApplication {
         SpringApplication.run(Cs322HomeworkApplication.class, args);
     }
 }
+
